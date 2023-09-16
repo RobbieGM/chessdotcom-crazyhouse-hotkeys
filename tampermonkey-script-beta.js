@@ -32,7 +32,7 @@ function clickPieceElement(piece) {
 }
 
 function getUserColor() {
-  const isWhite = !document.querySelector('chess-board').classList.contains("flipped");
+  const isWhite = !document.querySelector('wc-chess-board').classList.contains("flipped");
   return isWhite ? "white" : "black";
 }
 
